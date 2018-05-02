@@ -1,0 +1,893 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+
+@media only screen and (max-width : 1865px)
+
+  //.b-insta
+  //  max-height: 210px
+
+  //.recipe
+  //  max-width: 20%
+
+
+@media only screen and (max-width : 1600px)
+
+  //.recipe
+  //  max-width: 25%
+
+
+@media only screen and (max-width : 1300px)
+
+  header.padded
+    padding-right: 80px
+    padding-left: 80px
+  .padded
+    padding-right: 40px
+    padding-left: 40px
+
+
+@media only screen and (max-width : 1220px)
+
+  .btn
+    &.w-icon
+      font-size: 16px
+      width: 210px
+
+  .recipe
+    max-width: 33.333333%
+
+  .s-testi
+    max-width: 960px
+    .slick
+      &-next
+        right: -30px
+      &-prev
+        left: -30px
+
+  .testi-item
+    padding: 0 20px
+
+  .banner-item
+    h1
+      font-size: 48px
+      span
+        font-size: 30px
+    p
+      font-size: 16px
+
+
+
+@media only screen and (max-width : 1100px)
+
+  .c-recipe-details
+    justify-content: flex-start
+    max-width: 900px
+    padding-right: 40px
+    padding-left: 40px
+    .image-col
+      text-align: left
+      padding-right: 20px
+      //margin-right: 20px
+      a
+        display: block
+        box-sizing: border-box
+      img
+        width: 100%
+
+  .js-close-recipe.close-btn
+    right: 30px
+
+  .b-insta
+    max-height: 420px
+
+  .insta-item
+    width: calc(50% - 42px)
+
+
+
+
+@media only screen and (max-width : 960px)
+
+  .cnt, .footer-content, header, section
+    padding: 0 20px
+
+  header
+    &.padded
+      padding: 20px 40px
+    .b-logo img
+      max-width: 157px
+      width: 157px
+
+  .b-featureitem
+    &:first-child img
+      width: 103px
+    &:nth-child(2) img
+      width: 92px
+    &:last-child img
+      width: 111px
+
+  .s-banner
+    margin-bottom: 12px
+
+  .slick-dotted.slick-slider
+    margin-bottom: 0
+
+  .feature
+    &-icon
+      height: 118px
+    &-text
+      font-size: 16px
+
+  .padded
+    padding-right: 20px
+    padding-left: 20px
+
+  .b-navitem
+    a
+      font-size: 16px
+
+  .footer
+    &-logo
+      width: 80px
+      img
+        max-width: 48px
+    &-creds
+      font-size: 14px
+    &-mail,
+    &-tel
+      svg
+        width: 20px
+
+  .s-products,
+  .s-testi
+    padding-right: 40px
+    padding-left: 40px
+
+  .s-testi
+    .slick
+      &-next
+        right: -20px
+      &-prev
+        left: -20px
+
+  .tabs.padded
+    padding-right: 0
+    padding-left: 0
+
+  .s-recipes .s-heading h2
+    font-size: 38px
+
+  .s-products .s-heading h2,
+  .s-shops h2
+    font-size: 38px
+
+  .s-heading
+    margin: 0 0 40px
+    h2
+      font-size: 38px
+
+  .banner-slider
+    .slick-dots
+      li
+        button
+          width: 10px
+          height: 10px
+          &:before
+            width: 10px
+            height: 10px
+
+  img.js-collapse-recipe
+    width: 100%
+
+  .c-shops
+    padding-bottom: 2.84%
+
+
+
+@media only screen and (max-width : 900px)
+  
+  .s-social
+    background-color: #efeeee
+    padding-top: 35px
+    padding-bottom: 26px
+    margin-bottom: 0
+
+    .s-heading
+      margin: 0 auto
+      h2
+        font-size: 32px
+        line-height: .9
+      h4
+        font-size: 18px
+        margin-bottom: 20px
+      h2,h4
+        max-width: 100%
+  .c-social
+    flex-wrap: wrap
+    justify-content: center
+    margin: 0 auto
+    .b
+      &-fb
+        min-width: 100%
+      &-insta
+        max-height: 100%
+        margin-bottom: 30px
+        max-width: 401px
+        justify-content: center
+
+  .insta-item
+    width: calc(50% - 20px)
+    margin-right: 20px
+    &:nth-child(2n)
+      margin-right: 0
+    //&:nth-child(n+3)
+    //  margin-bottom: 0
+
+  .facebook-placeholder
+    max-width: 100%
+    margin-right: 0
+
+  .footer-content
+    justify-content: center
+
+  .b
+    &-fb
+      order: 2
+      text-align: center
+      iframe
+        margin-right: 0
+    &-insta
+      order: 1
+      .insta-photo
+        width: 100%
+
+@media only screen and (max-width : 850px)
+
+  .s-recipes
+    .s-heading
+      flex-wrap: wrap
+      h2
+        width: 100%
+        text-align: center
+        margin-bottom: 24px
+  .tabs-nav
+    width: 100%
+    justify-content: center
+
+  .b-shop
+    margin-bottom: 2vw
+    min-height: 63px
+
+
+@media only screen and (max-width : 768px)
+
+  .s-recipes
+    padding-right: 0
+    padding-left: 0
+    margin-bottom: 30px
+    .recipe
+      max-width: 100%
+      width: 100%
+      &-thumb
+        margin: 0
+        a.js-collapse-recipe
+          transition: opacity .2s
+          opacity: 0
+          pointer-events: none
+          width: 100%
+          max-width: 100%
+          img
+            display: none
+    .slick-list
+      padding-top: 20px!important
+    .slick-slide
+      margin: 0 17px
+      width: 222px
+      outline: none!important
+      transition: opacity .2s
+      opacity: 0.8
+      img
+        transition: transform .2s
+        margin-bottom: 36px
+      &.slick-center
+        transform: scale(1)
+        opacity: 1
+        img
+          transform-origin: 50% 50%
+          transform: scale(1.2)
+        a.js-collapse-recipe
+          margin-left: -20px
+          opacity: 1
+          pointer-events: auto
+    .slick-dots
+      bottom: auto
+      top: 170px
+      li
+        margin-right: 10px
+        margin-left: 0
+        width: 10px
+        height: 10px
+        button
+          width: 10px
+          height: 10px
+          &:before
+            width: 10px
+            height: 10px
+            font-size: 0
+            border: 2px solid #fff
+            border-radius: 100%
+            opacity: 1
+        &.slick-active button:before
+          background-color: #fff
+
+  .s-shops
+    padding-right: 0
+    padding-left: 0
+  .shops
+    border-radius: 0
+    .c-img
+      display: none
+    .c-shops
+      width: 100%
+      padding-top: 38px
+      padding-bottom: 44px
+      align-items: center
+      h2
+        text-align: center
+        margin-bottom: 23px
+
+  .b-shop
+    max-width: 267px
+    height: 81px
+    padding: 0
+    text-align: center
+    margin-bottom: 23px
+    width: 100%
+    padding-top: 10px
+    padding-bottom: 10px
+    &.re-store
+      display: flex
+      align-items: center
+    &:last-child
+      margin-bottom: 0
+    img
+      width: auto
+
+  .js-toggle-mnav
+    width: 27px
+    height: 17px
+    display: block
+    position: relative
+    cursor: pointer
+    span
+      position: absolute
+      left: 0
+      top: 0
+      display: block
+      width: 100%
+      height: 3px
+      background-color: #000
+      transition: all .2s
+      &:nth-child(2),
+      &:nth-child(3)
+        top: 7px
+        transform-origin: 50% 50%
+      &:last-child
+        top: 14px
+
+  .s-banner
+    padding-right: 0
+    padding-left: 0
+
+  .banner-item
+    overflow: visible
+    border-radius: 0
+
+  .shops
+    padding-left: 0
+
+  header
+    position: relative
+
+  nav
+    position: absolute
+    left: 0
+    top: 100px
+    width: 100%
+    background: #fff
+    z-index: 10
+    flex-wrap: wrap
+    padding: 0
+    max-height: 0
+    overflow: hidden
+    pointer-events: none
+    transition: max-height .2s
+    box-shadow: 0px 5px 10px -5px #000
+
+  .mnav-active
+    overflow: hidden
+    nav
+      max-height: 300px
+      pointer-events: auto
+      visibility: visible
+    .js-toggle-mnav
+      span
+        &:first-child,
+        &:last-child
+          opacity: 0
+        &:nth-child(2)
+          transform: rotate(-45deg)
+        &:nth-child(3)
+          transform: rotate(45deg)
+
+
+  .b-navitem
+    border: none
+    width: 100%
+    margin-bottom: 24px
+    padding-right: 40px
+    padding-left: 40px
+    &:first-child
+      padding-top: 40px
+    &:last-child
+      margin-bottom: 0
+      padding-bottom: 40px
+    a
+      font-size: 30px
+
+  .recipe-overlay-is-active
+    overflow: hidden
+    .recipe-overlay--for-mobile
+      display: block
+
+  .recipe-overlay
+    &--for-mobile
+      display: none
+      position: fixed
+      top: 0
+      left: 0
+      z-index: 10
+      width: 100%
+      height: 100%
+      background-color: #f8f7f7
+    &-header
+      background-color: #fff
+      display: flex
+      justify-content: space-between
+      padding: 0 40px
+      height: 101px
+      align-items: center
+      line-height: 1.65
+      img
+        width: 157px
+      .js-close-overlay
+        width: 27px
+        height: 17px
+        display: block
+        position: relative
+        span
+          position: absolute
+          top: 7px
+          left: 0
+          display: block
+          width: 100%
+          height: 3px
+          background-color: #313131
+          transform: rotate(45deg)
+          &:last-child
+            transform: rotate(-45deg)
+    &-body
+      max-width: 480px
+      margin: 0 auto
+      height: calc(100% - 101px)
+      padding-top: 14px
+      padding-right: 10px
+      padding-left: 10px
+      .scroll
+        max-height: 100%
+        overflow: scroll
+        padding-right: 20px
+        padding-left: 20px
+
+  .m-recipe
+    &-img
+      margin-bottom: 10px
+      .image-col
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        line-height: 1
+        a
+          width: calc(50% - 8px)
+          margin-bottom: 14px
+          outline: none!important
+          img
+            width: 100%
+          &:first-child
+            width: 100%
+    &-title
+      font-size: 24px
+      font-weight: bold
+      line-height: 1.14
+      margin-bottom: 14px
+    &-calc
+      .calculation
+        padding-bottom: 16px
+        padding-top: 16px
+        border-top: 1px solid #6f6c6f
+      .calc-line
+        margin-bottom: 10px
+    &-process
+      .process
+        padding-top: 16px
+        padding-bottom: 24px
+
+
+
+
+
+//justify-content: space-between
+
+
+@media only screen and (max-width : 600px)
+
+
+
+  .tab-navitem
+    font-size: 0
+    margin-right: 10px
+    width: 60px
+    height: 60px
+    padding: 0
+    min-width: 0
+    display: flex
+    justify-content: center
+    align-items: center
+    &.is-active svg
+      path, ellipse, circle
+        stroke: #fff!important
+    .hide-on-small
+      display: none
+
+    svg
+      display: block
+      margin-right: 8px
+      path, ellipse, circle
+        stroke: #c2c2c2!important
+    &.bird, &.veg
+      path, ellipse, circle
+        fill: #fff!important
+    &.bird
+      svg
+        min-width: 23px //31px
+        min-height: 26px //36px
+    &.fish
+      svg
+        min-width: 31px
+        min-height: 26px
+    &.meat
+      svg
+        min-width: 35px
+        min-height: 28px
+    &.veg
+      svg
+        min-width: 24px
+        min-height: 28px
+
+  .s-recipes
+    margin-bottom: 0
+    padding-bottom: 30px
+    border-bottom: 3px solid $accent
+    .s-heading
+      padding-right: 0
+      padding-left: 0
+      border-bottom: 3px solid $accent
+      overflow: hidden
+
+  .tabs-nav
+    max-width: 420px
+    margin: 0 auto
+
+  .tab-navitem
+    align-items: flex-start
+    display: block
+    border-bottom: 0
+    border-right: 0
+    border-radius: 5px 5px 0 0
+    height: 48px
+    width: 45px
+    margin-right: 20px
+    position: relative
+    z-index: 1
+    background-color: #fff
+    transform: translateY(10px)
+    padding-right: 5px
+    &:nth-child(1)
+      z-index: 5
+    &:nth-child(2)
+      z-index: 4
+    &:nth-child(3)
+      z-index: 3
+    &:nth-child(4)
+      z-index: 2
+    &:after
+      display: block
+      width: 60px
+      content: ''
+      position: absolute
+      height: 40px
+      right: -56px
+      top: -6px
+      border: 2px solid #c2c2c2
+      border-radius: 10px 0 0 0
+      z-index: -1
+      border-bottom: 0
+      border-right: 0
+      transform-origin: 0 0
+      transform: rotate(50deg)
+      background-color: #fff
+      transition: transform .2s
+    &:hover
+      background-color: #fff
+      border-color: #c2c2c2
+    &.is-active
+      border-color: $accent
+      background-color: $accent
+      font-size: 16px
+      width: auto
+      white-space: nowrap
+      z-index: 10
+      text-transform: capitalize
+      transform: translateY(5px)
+      div
+        background-color: $accent
+
+      &:after
+        border-color: $accent
+        background-color: $accent
+        transform: rotate(55deg) translate(1px, 0px)
+    div
+      display: flex
+      align-items: flex-start
+      padding-top: 5px
+      padding-left: 10px
+      background-color: #fff
+      width: 100%
+
+  .btn
+    &.w-icon
+      width: 110px
+      height: 42px
+      line-height: 36px
+      span
+        margin: 0 auto
+      img
+        display: none
+
+  .banner-content
+    max-width: 210px
+    left: 24px
+    h1 span
+      margin-top: 0
+    p
+      margin-bottom: 16px
+      display: none
+    .mobile-text
+      display: block
+
+
+
+@media only screen and (max-width : 560px)
+
+  .products-slider
+    max-width: 212px
+    margin: 0 auto
+
+  .s-products .s-heading span
+    display: none
+
+  .s-testi
+    .s-heading h2
+      text-align: left
+      line-height: .8
+    .slick
+      &-prev
+        left: -10px
+      &-next
+        right: -10px
+
+  .c-testiitem
+    flex-wrap: wrap
+    position: relative
+
+  .testi
+    &-item
+      padding-right: 0
+      padding-left: 0
+    &-img
+      width: 100%
+      margin-bottom: 24px
+      margin-right: 0
+      img
+        max-width: 81px
+    &-msg
+      padding-right: 30px
+      padding-left: 30px
+    &-author
+      position: absolute
+      top: 18px
+      left: 109px
+
+  .insta
+    &-item
+      width: calc(50% - 11px)
+    &-photo
+      width: 100%
+
+  .c-features
+    flex-direction: column
+    max-width: 260px
+    margin: 0 auto
+
+  .b-featureitem
+    display: flex
+    max-width: 100%
+    align-items: center
+    margin: 0 0 17px
+    &:nth-child(2)
+      .feature
+        &-icon
+          order: 2
+          margin-right: 0
+          margin-left: 45px
+        &-text
+          order: 1
+
+
+  .s-features
+    margin-bottom: 24px
+
+  .feature
+    &-icon
+      margin-bottom: 0
+      margin-right: 46px
+    &-text
+      text-align: left
+
+  .remodal-shops
+    padding: 36px 30px
+
+
+
+@media only screen and (max-width : 480px)
+
+  .s-products, .s-testi, header.padded
+    padding-right: 20px
+    padding-left: 20px
+
+  header.padded
+    padding-top: 10px
+    padding-bottom: 10px
+
+  nav
+    top: 80px
+
+  .b-navitem
+    padding-right: 20px
+    padding-left: 20px
+    margin-bottom: 8px
+
+  .remodal-shops h4
+    text-align: center
+    font-size: 30px
+    margin-bottom: 16px
+
+  .c-shops-loc
+    flex-wrap: wrap
+    text-align: center
+  .shops-col
+    padding: 0
+    width: 100%
+    &:first-child
+      margin-bottom: 10px
+
+  .tabs-nav
+    max-width: 320px
+    justify-content: flex-start
+
+  .tab-navitem
+    &.is-active
+      font-size: 14px
+      span
+        display: block
+        margin-top: 5px
+        line-height: 1
+      .hide-on-small
+        display: none
+    &.bird
+      svg
+        min-width: 20px //31px
+        min-height: 23px //36px
+    &.fish
+      svg
+        min-width: 26px
+        min-height: 21px
+    &.meat
+      svg
+        min-width: 30px
+        min-height: 23px
+    &.veg
+      svg
+        min-width: 20px
+        min-height: 24px
+
+  .banner-content
+    max-width: 210px
+    left: 24px
+    h1
+      font-size: 40px
+      margin-bottom: 8px
+      span
+        font-size: 24px
+    p
+      margin-bottom: 16px
+      display: none
+    .mobile-text
+      display: block
+
+
+@media only screen and (max-width : 400px)
+  .s-social.padded
+    padding-right: 0
+    padding-left: 0
+    .s-heading,
+    .b-insta
+      padding-right: 20px
+      padding-left: 20px
+    .b-fb
+      line-height: 1
+      overflow: hidden
+      iframe
+        transform-origin: 0% 0%
+        transform: scale(.94118)
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+
+  .tab-heading
+    display: none
+
+/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
+
+

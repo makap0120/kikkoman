@@ -1,0 +1,880 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+
+*
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  &:before, &:after
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+
+*::-webkit-input-placeholder
+  color: #666
+  opacity: 1
+
+*:-moz-placeholder
+  color: #666
+  opacity: 1
+
+*::-moz-placeholder
+  color: #666
+  opacity: 1
+
+*:-ms-input-placeholder
+  color: #666
+  opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+  color: #666
+body input:required:valid,
+body textarea:required:valid
+  color: #666
+
+html, body
+  height: 100%
+  
+body
+  min-width: 320px
+  position: relative
+  line-height: 1.65
+  font-family: $default-font
+  overflow-x: hidden
+  font-size: 16px
+  color: #000
+  padding-right: 0 !important
+
+.page
+  background-color: #fff
+
+.clone-chamber
+  position: absolute
+  z-index: -1
+  width: 100%
+  height: 300%
+  left: 0
+  top: 0
+  pointer-events: none
+  .recipe-details
+    max-height: 100%
+
+section
+  &:focus
+    outline: none
+
+section,
+header,
+.footer-content,
+.cnt
+  max-width: 1440px
+  margin: 0 auto
+  padding: 0 40px
+
+.full-w
+  max-width: 100%
+
+.padded
+  padding-right: 80px
+  padding-left: 80px
+
+::selection
+  background-color: $accent
+  color: #fff
+
+// globals
+
+.s-heading
+  margin: 0 0 60px
+  h2
+    font-size: 50px
+    line-height: 1.14
+    text-align: center
+    margin: 0
+
+.btn
+  cursor: pointer
+  border: 2px solid #fff
+  border-radius: 23px
+  font-weight: bold
+  transition: background-color .2s, border-color .2s
+  &.w-icon
+    position: relative
+    display: inline-block
+    width: 280px
+    height: 47px
+    line-height: 41px
+    text-align: center
+    color: #fff
+    text-decoration: none
+    font-size: 22px
+    img
+      max-width: 27px
+      position: absolute
+      right: 18px
+      top: 13px
+    span
+      margin-left: -10px
+    &:hover
+      background-color: $accent
+      border-color: $accent
+  &.at-product
+    position: absolute
+    bottom: 0
+    left: 50%
+    margin-left: -50px
+    display: block
+    width: 100px
+    height: 43px
+    line-height: 36px
+    text-align: center
+    color: #5a5a5a
+    text-decoration: none
+    border: 2px solid #c2c2c2
+    border-radius: 21px
+    transition: color .2s, background-color .2s, border-color .2s
+    &:hover
+      background-color: $accent
+      border-color: $accent
+      color: #fff
+
+// header
+
+header
+  padding: 20px 0
+  display: flex
+  justify-content: space-between
+  align-items: center
+  &.padded
+    padding-right: 80px
+    padding-left: 80px
+  .b-logo img
+    max-width: 50%
+    width: 558px
+
+nav
+  display: flex
+  font-weight: bold
+
+.b-navitem
+  padding: 2px 30px
+  border-right: 1px solid $accent
+  &:last-child
+    padding-right: 0
+    border: none
+  a
+    color: #000
+    text-decoration: none
+    line-height: 1
+    font-size: 18px
+    white-space: nowrap
+    &:hover
+      text-decoration: underline
+
+
+// banner
+
+.s-banner
+  margin-bottom: 36px
+
+.banner
+  &-item
+    //padding: 75px 0 75px 227px
+    color: #fff
+    position: relative
+    border-radius: 10px
+    overflow: hidden
+    img
+      width: 100%
+  &-content
+    max-width: 360px
+    position: absolute
+    top: 50%
+    left: 25%
+    transform: translateY(-50%)
+    h1
+      margin: 0 0 5vw
+      font-size: 78px
+      line-height: 1
+      font-weight: bold
+      span
+        font-size: 34px
+        display: block
+        margin-top: 10px
+        color: $accent
+    p
+      margin: 0 0 30px
+      font-weight: bold
+      font-size: 22px
+      line-height: 1.14
+
+  &-slider .slick-dots
+    right: 0
+    bottom: 0
+    text-align: right
+    padding-right: 43px
+    padding-bottom: 28px
+    li
+      width: 18px
+      height: 18px
+      margin: 0 9px 0 0
+      &:last-child
+        margin-right: 0
+      button
+        padding: 0
+        &:before
+          width: 18px
+          height: 18px
+          color: transparent
+          opacity: 1
+          border: 2px solid #fff
+          border-radius: 100%
+          transition: background-color .2s
+      &.slick-active
+        button:before
+          background-color: #fff
+
+
+//features
+
+.s-features
+  padding-top: 36px
+  margin-bottom: 72px
+
+.c-features
+  display: flex
+  justify-content: center
+
+.b-featureitem
+  max-width: 180px
+  width: 100%
+  &:nth-child(2)
+    margin: 0 3.883vw //60px
+  &.replacement
+    img
+      width: 131px
+  &.green img
+    width: 132px
+  &.daily img
+    width: 192px
+
+.feature-icon
+  height: 160px
+  margin-bottom: 24px
+  display: flex
+  align-items: center
+  justify-content: center
+
+.feature-text
+  margin: 0
+  font-weight: bold
+  line-height: 1.14
+  text-align: center
+  color: #313131
+  font-size: 18px
+
+
+//recipes
+
+.s-recipes
+  margin-bottom: 70px
+  position: relative
+  .s-heading
+    display: flex
+    align-items: center
+    justify-content: space-between
+    margin: 0 auto 34px
+    h2
+      font-size: 60px
+      margin: 0
+      line-height: 1
+
+.tab
+  display: none
+  &s
+    max-width: 1440px
+    margin: 0 auto
+    &.padded
+      padding-right: 3.5%
+      padding-left: 3.5%
+  &.is-active
+    display: block
+  &s-nav
+    display: flex
+  &-navitem
+    display: block
+    border: 2px solid #c2c2c2
+    border-radius: 21px
+    font-weight: bold
+    min-width: 98px
+    text-align: center
+    color: #5a5a5a
+    padding: 5px 15px 7px
+    cursor: pointer
+    margin-right: 13px
+    transition: background-color .2s, color .2s, border-color .2s, transform .2s
+    svg
+      display: none
+    &:last-child
+      margin-right: 0
+    &:hover,
+    &.is-active
+      border-color: $accent
+      color: #ffffff
+      background-color: $accent
+
+.recipes-grid
+  display: flex
+  flex-wrap: wrap
+
+.recipe
+  width: 33.33333%
+  max-width: 33.33333%
+  margin-bottom: 24px
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  &.is-collapsed
+    background-color: #f8f7f7
+    border-radius: 10px
+    box-shadow: inset 0 0 27px -16px #000
+    a.js-collapse-recipe
+      z-index: 1
+      pointer-events: none
+      img, span, h3
+        opacity: 0
+      &:after
+        opacity: 1
+    .recipe-details
+      opacity: 1
+  &.add-transition
+    transition: margin-bottom .2s
+    .recipe-details
+      transition: max-height .2s, opacity .1s
+  &-thumb
+    margin: 16px 21px
+    width: 100%
+    > img
+      margin-bottom: 10px
+      width: 100%
+  &-details
+    position: absolute
+    left: 0
+    width: 100%
+    background-color: #f8f7f7
+    box-shadow: inset 0 0 27px -16px #000
+    transform: translateY(-6px)
+    overflow: hidden
+    z-index: 1
+    max-height: 0
+    opacity: 0
+  &-top
+    text-align: center
+    font-size: 28px
+    margin: 0 0 32px
+    line-height: 1.14
+    color: #313131
+    width: 100%
+    padding: 0 32px
+  &-bottom
+    margin-top: 24px
+    width: 100%
+    margin-bottom: 20px
+
+
+.c-recipe-details
+  position: relative
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  color: #313131
+  padding-top: 30px
+  max-width: 960px
+  margin: 0 auto
+  .image-col
+    max-width: 38.7%
+    text-align: right
+    padding-right: 20px
+    img
+      max-width: 100%
+  .descr-col
+    max-width: 61.3%
+    padding-left: 20px
+
+.calculation
+  padding-bottom: 32px
+  border-bottom: 1px solid #6f6c6f
+
+.calc-line
+  display: flex
+  margin-bottom: 5px
+  span
+    line-height: 1.14
+  .weight
+    white-space: nowrap
+
+.ingridient
+  max-width: 300px
+  width: 100%
+  margin-right: 15px
+
+.process
+  padding-top: 32px
+  max-width: 430px
+  p
+    line-height: 1.14
+    margin: 0 0 16px
+    font-weight: 500
+
+a.js-collapse-recipe
+  display: flex
+  align-items: flex-start
+  font-weight: bold
+  font-size: 18px
+  cursor: pointer
+  max-width: 100% //241px
+  width: 100%
+  position: relative
+  z-index: 0
+  outline: none!important
+  &:after
+    display: block
+    content: ''
+    background-color: #f8f7f7
+    width: calc(100% + 32px)
+    height: 20px
+    transform: translateY(-16px)
+    margin-left: -16px
+    position: absolute
+    transition: opacity .1s
+    opacity: 0
+  img,span
+    transition: opacity .1s
+  span, h3
+    line-height: 1
+    font-size: 18px
+  h3
+    margin: 0
+  img
+    margin-right: 16px
+    transform: translateY(-4px)
+
+img.js-collapse-recipe,
+.js-toggle-shops-modal
+  cursor: pointer
+  border-radius: 10px
+
+.js-close-recipe
+  cursor: pointer
+  &.close-btn
+    position: absolute
+    right: 30px
+  &.at-bottom
+    margin: 0 auto
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 100px
+    img
+      margin-right: 10px
+      transform: rotate(-90deg)
+
+.js-close-recipe,
+.js-close-remodal
+  cursor: pointer
+  &.at-bottom
+    display: flex
+    align-items: center
+    width: 100px
+    margin: 0 auto
+    img
+      margin-right: 10px
+      transform-origin: 50% 50%
+      transform: rotate(-90deg)
+    span
+      line-height: 1
+      color: #5a5a5a
+      border-bottom: 1px dashed #5a5a5a
+  &.close-btn
+    position: absolute
+    right: 0
+    top: 40px
+    width: 15px
+    height: 15px
+
+.js-close-overlay-bottom
+  display: flex
+  align-items: center
+  width: 120px
+  margin: 0 auto
+  margin-bottom: 30px
+  img
+    margin-right: 10px
+    transform-origin: 50% 50%
+    transform: rotate(180deg)
+
+.js-close-recipe.close-btn,
+.remodal-close
+  &:after,
+  &:before
+    display: block
+    content: ''
+    position: absolute
+    left: -1px
+    top: 6px
+    width: 17px
+    height: 3px
+    background-color: #313131
+    transform: rotate(-45deg)
+  &:after
+    transform: rotate(45deg)
+
+
+// shops
+
+.s-shops
+  margin-bottom: 60px
+  max-width: 1420px
+  h2
+    font-size: 50px
+    line-height: 1
+    margin: 0 0 3vw
+
+  .c-img
+    width: 55%
+    line-height: 1
+    img
+      width: 100%
+
+.shops
+  background-color: #efeeee
+  border-radius: 5px
+  display: flex
+  padding-left: 4.54%
+
+.c-shops
+  display: flex
+  flex-direction: column
+  width: 45%
+  padding-top: 2.84%
+
+.b-shop
+  width: 63%
+  min-height: 73px
+  background-color: #fff
+  border-radius: 27px
+  display: flex
+  justify-content: center
+  align-items: center
+  margin-bottom: 3vw
+  padding: 3% 11% //10px 30px
+  &:last-child
+    margin-bottom: 0
+  a
+    display: block
+    width: 100%
+    cursor: pointer
+    line-height: 1
+  img
+    width: 100%
+    max-width: 100%
+  &.re-store
+    display: block
+    padding-top: 2%
+    padding-bottom: 2%
+    a
+      text-decoration: none
+      text-align: center
+    span
+      display: block
+      width: 100%
+      font-size: 10px
+      line-height: 1
+      color: #313131
+      text-decoration: none
+      white-space: nowrap
+    img
+      width: 125px
+      max-width: 125px
+      margin-bottom: 4px
+  &.for-shops
+    padding-right: 9%
+    padding-left: 9%
+    a
+      display: flex
+      align-items: center
+      justify-content: center
+      text-decoration: none
+      color: #313131
+    img
+      width: 40px
+      max-width: 40px
+      margin-right: 15px
+    span
+      font-size: 27px
+      font-weight: bold
+  &.dostavka
+    a
+      text-align: center
+    img
+      max-width: 152px
+
+// products
+
+.s-products
+  margin-bottom: 64px
+  .s-heading
+    h2
+      font-size: 50px
+      text-align: center
+      margin: 0 0 38px
+      line-height: 1
+  .slick
+    &-next,
+    &-prev
+      width: 13px
+      height: 25px
+      background-image: url('../img/arrow.png')
+      &:before
+        display: none
+    &-next
+      transform-origin: 50% 50%
+      transform: rotate(180deg)
+      margin-top: -12px
+      right: -15px
+    &-prev
+      left: -15px
+
+.product
+  &-img
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 215px
+    margin-bottom: 23px
+  &-item
+    padding-bottom: 57px
+    position: relative
+    span
+      font-weight: bold
+      max-width: 193px
+      text-align: center
+      display: block
+      line-height: 1.14
+      margin: 0 auto
+      min-height: 54px
+
+
+// testimonials
+
+.s-testi
+  max-width: 960px
+  margin-bottom: 64px
+  .slick
+    &-prev,
+    &-next
+      width: 13px
+      height: 25px
+      background-image: url('../img/arrow.png')
+      left: -80px
+      &:after,
+      &:before
+        display: none
+        content: ''
+    &-next
+      transform: rotate(180deg) translateY(13px)
+      left: auto
+      right: -80px
+
+.c-testiitem
+  display: flex
+
+.testi
+  &-img
+    margin-right: 28px
+    img
+      border-radius: 100%
+  &-msg
+    p
+      margin: 0 0 20px
+      line-height: 1.14
+      color: #313131
+    a
+      color: #313131
+  &-author
+    > span
+      display: block
+      line-height: 1.14
+    .author
+      font-weight: bold
+      font-size: 20px
+    .accent
+      color: $accent
+    .pos
+      font-size: 14px
+      color: #838282
+
+
+// social
+
+.s-social
+  margin-bottom: 75px
+  .s-heading
+    text-align: center
+    margin-bottom: 40px
+    h3
+      font-size: 50px
+      margin: 0
+      line-height: 1
+    h4
+      font-size: 20px
+      margin: 16px 0 0
+      line-height: 1.14
+      max-width: 380px
+      margin:  16px auto
+      color: #959595
+
+.c-social
+  display: flex
+  position: relative
+
+.b
+  &-fb,
+  &-insta
+    flex: 1
+    width: 50%
+
+  &-fb
+    text-align: right
+    iframe
+      margin-right: 10%
+  &-insta
+    //max-width: 50%
+    max-height: 210px
+    right: 0
+    display: flex
+    flex-wrap: wrap
+    //justify-content: space-between
+
+.facebook-placeholder
+  max-width: 320px
+  width: 100%
+  height: 215px
+  background-color: #8c8c8c
+  float: right
+  margin-right: 10%
+
+.insta
+  &-item
+    margin-bottom: 18px
+    margin-right: 21px
+    position: relative
+    line-height: 1
+    width: calc(33.333333% - 22px)
+    img
+      width: 100%
+      height: auto
+    .insta-icon
+      width: 25px
+      height: 25px
+      position: absolute
+      top: 7px
+      right: 7px
+
+
+// footer
+
+footer
+  background-color: #1e1e1e
+  padding: 40px 0 48px
+  img
+    max-width: 96px
+    height: 102px
+
+.footer-content
+  display: flex
+  font-size: 18px
+  a
+    color: #fff
+    text-decoration: none
+    display: flex
+    align-items: center
+    &:hover
+      text-decoration: underline
+
+.footer
+  &-logo
+    width: 146px
+  &-creds
+    padding-top: 16px
+
+.b-creds
+  color: #fff
+  margin-bottom: 20px
+  max-width: 240px
+  line-height: 1.14
+
+.footer
+  &-tel,
+  &-mail
+    svg
+      width: 28px
+      margin-right: 16px
+  &-mail
+    margin-bottom: 8px
+
+// modal
+
+.remodal-shops
+  max-width: 566px
+  padding: 36px 80px
+  text-align: left
+  border-radius: 5px
+  box-shadow: 0px 3px 27px 0px rgba(0, 0, 0, 0.23)
+  h4
+    font-size: 40px
+    margin: 0 0 30px
+    line-height: 1.14
+
+.remodal
+  &-close
+    width: 15px
+    height: 15px
+    left: auto
+    top: 15px
+    right: 15px
+  &-overlay
+    background: rgba(0, 0, 0, 0.45)
+
+.c-shops-loc
+  display: flex
+
+.shops-col
+  width: 50%
+  padding: 0 15px
+  &:first-child
+    padding-left: 0
+  &:nth-child(2)
+    padding-right: 0
+
+.b-shops
+  margin-bottom: 10px
+  span
+    display: block
+  .shop
+    font-weight: 700
+
+.js-toggle-mnav
+  display: none
+
+.recipe-overlay--for-mobile
+    display: none
+
+.mobile-text
+  display: none
+
+
+
+@import "media" // Всегда в конце
