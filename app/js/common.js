@@ -16,6 +16,7 @@ $(function() {
         slidesToShow: 6,
         slidesToScroll: 1,
         dots: false,
+        infinite: false,
         arrows: true,
         responsive: [
             {

@@ -35,21 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="171" column="3813" lean-forward="false" selection-start-line="171" selection-start-column="3813" selection-end-line="171" selection-end-column="3813" />
+            <state relative-caret-position="16">
+              <caret line="186" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
               <folding>
                 <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -101,7 +91,7 @@
       <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
+            <state relative-caret-position="16">
               <caret line="46" column="4" lean-forward="false" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
               <folding />
             </state>
@@ -111,10 +101,10 @@
       <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2208">
-              <caret line="189" column="27" lean-forward="false" selection-start-line="189" selection-start-column="27" selection-end-line="189" selection-end-column="27" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="e#2948#4582#0" expanded="false" />
+                <element signature="e#2973#4607#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -124,7 +114,7 @@
         <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="262">
-              <caret line="587" column="23" lean-forward="false" selection-start-line="587" selection-start-column="23" selection-end-line="587" selection-end-column="23" />
+              <caret line="837" column="17" lean-forward="false" selection-start-line="837" selection-start-column="17" selection-end-line="837" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -133,8 +123,8 @@
       <file leaf-file-name="_media.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8352">
-              <caret line="540" column="22" lean-forward="false" selection-start-line="540" selection-start-column="22" selection-end-line="540" selection-end-column="22" />
+            <state relative-caret-position="502">
+              <caret line="691" column="0" lean-forward="false" selection-start-line="691" selection-start-column="0" selection-end-line="691" selection-end-column="0" />
               <folding>
                 <element signature="e#4512#4960#0" expanded="false" />
               </folding>
@@ -146,16 +136,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>580</find>
-      <find>600</find>
-      <find>slick-lis</find>
-      <find>s-recipes</find>
-      <find>navitem</find>
-      <find>js-close-recip</find>
-      <find>js-close-recipe</find>
-      <find>i</find>
-      <find>instance</find>
-      <find>remodal</find>
       <find>js-collapse-recip</find>
       <find>modals</find>
       <find>showRecipe</find>
@@ -176,6 +156,16 @@
       <find>banner</find>
       <find>re-store</find>
       <find>veg</find>
+      <find>unslick</find>
+      <find>slick</find>
+      <find>initProductsSlider</find>
+      <find>bird</find>
+      <find>480</find>
+      <find>po</find>
+      <find>.s</find>
+      <find>remodal-shops</find>
+      <find>shops-loc</find>
+      <find>shops-col</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -196,13 +186,13 @@
         <option value="$PROJECT_DIR$/backup/main.sass - 4.24.18 before transition to fullhd container" />
         <option value="$PROJECT_DIR$/app/libs/remodal/remodal.css" />
         <option value="$PROJECT_DIR$/app/img/re-store" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/dist/img/feature1.svg" />
         <option value="$PROJECT_DIR$/app/libs/slick/slick-theme.scss" />
-        <option value="$PROJECT_DIR$/app/js/common.js" />
-        <option value="$PROJECT_DIR$/app/sass/_media.sass" />
-        <option value="$PROJECT_DIR$/app/sass/main.sass" />
         <option value="$PROJECT_DIR$/app/img/veggie-icon.svg" />
+        <option value="$PROJECT_DIR$/app/js/common.js" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/app/sass/main.sass" />
+        <option value="$PROJECT_DIR$/app/sass/_media.sass" />
         <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
@@ -289,7 +279,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -344,6 +334,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -351,24 +343,17 @@
               <item name="html" type="b2602c69:ProjectViewProjectNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="html" type="b2602c69:ProjectViewProjectNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="javascript.nodejs.core.library.configured.version" value="6.9.5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/playground" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
@@ -432,25 +417,28 @@
       <workItem from="1525087566982" duration="15957000" />
       <workItem from="1525267741336" duration="3637000" />
       <workItem from="1525348730163" duration="2353000" />
-      <workItem from="1525435848110" duration="2557000" />
+      <workItem from="1525435848110" duration="3308000" />
+      <workItem from="1525538400445" duration="599000" />
+      <workItem from="1525638191648" duration="37000" />
+      <workItem from="1525693698082" duration="3603000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112348000" />
+    <option name="totallyTimeSpent" value="117338000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15437302" sideWeight="0.5118343" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24868283" sideWeight="0.48816568" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24868283" sideWeight="0.48816568" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26086956" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26086956" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -506,7 +494,7 @@
         <state relative-caret-position="368">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <element signature="e#2948#4582#0" expanded="false" />
+            <element signature="e#2973#4607#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -615,7 +603,7 @@
         <state relative-caret-position="176">
           <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding>
-            <element signature="e#2948#4582#0" expanded="false" />
+            <element signature="e#2973#4607#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -782,7 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/js/scripts.min.js" />
     <entry file="file://$PROJECT_DIR$/dist/css/main.min.css" />
     <entry file="file://$PROJECT_DIR$/../../../git_work-preview/makap0120.github.io/kikkoman/css/main.min.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -791,20 +778,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="46" column="4" lean-forward="false" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/img/feature1.svg" />
     <entry file="file://$PROJECT_DIR$/app/img/fish-icon.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="53" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="1559" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -831,39 +809,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2208">
-          <caret line="189" column="27" lean-forward="false" selection-start-line="189" selection-start-column="27" selection-end-line="189" selection-end-column="27" />
-          <folding>
-            <element signature="e#2948#4582#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8352">
-          <caret line="540" column="22" lean-forward="false" selection-start-line="540" selection-start-column="22" selection-end-line="540" selection-end-column="22" />
-          <folding>
-            <element signature="e#4512#4960#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/img/veggie-icon.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="69" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="3785" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="587" column="23" lean-forward="false" selection-start-line="587" selection-start-column="23" selection-end-line="587" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -871,20 +820,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
           <caret line="449" column="18" lean-forward="true" selection-start-line="449" selection-start-column="18" selection-end-line="479" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/scripts.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11777">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="46" column="4" lean-forward="false" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#2973#4607#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="837" column="17" lean-forward="false" selection-start-line="837" selection-start-column="17" selection-end-line="837" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="691" column="0" lean-forward="false" selection-start-line="691" selection-start-column="0" selection-end-line="691" selection-end-column="0" />
+          <folding>
+            <element signature="e#4512#4960#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="171" column="3813" lean-forward="false" selection-start-line="171" selection-start-column="3813" selection-end-line="171" selection-end-column="3813" />
+        <state relative-caret-position="16">
+          <caret line="186" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
           <folding>
             <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />

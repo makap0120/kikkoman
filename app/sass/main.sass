@@ -642,6 +642,9 @@ img.js-collapse-recipe,
       background-image: url('../img/arrow.png')
       &:before
         display: none
+      &.slick-disabled
+        opacity: 0.333333
+        pointer-events: none
     &-next
       transform-origin: 50% 50%
       transform: rotate(180deg)
@@ -832,7 +835,7 @@ footer
 
 .remodal-shops
   max-width: 566px
-  padding: 36px 80px
+  padding: 36px 30px
   text-align: left
   border-radius: 5px
   box-shadow: 0px 3px 27px 0px rgba(0, 0, 0, 0.23)

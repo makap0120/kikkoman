@@ -568,18 +568,26 @@
       svg
         min-width: 23px //31px
         min-height: 26px //36px
+        max-width: 23px
+        max-height: 26px
     &.fish
       svg
         min-width: 31px
         min-height: 26px
+        max-width: 31px
+        max-height: 26px
     &.meat
       svg
         min-width: 35px
         min-height: 28px
+        max-width: 35px
+        max-height: 28px
     &.veg
       svg
         min-width: 24px
         min-height: 28px
+        max-width: 24px
+        max-height: 28px
 
   .s-recipes
     margin-bottom: 0
@@ -681,6 +689,21 @@
       display: none
     .mobile-text
       display: block
+
+  .remodal-shops h4
+    text-align: center
+    font-size: 30px
+    margin-bottom: 16px
+
+  .c-shops-loc
+    flex-wrap: wrap
+    text-align: center
+
+  .shops-col
+    padding: 0
+    width: 100%
+    &:first-child
+      margin-bottom: 10px
 
 
 
@@ -784,20 +807,6 @@
     padding-left: 20px
     margin-bottom: 8px
 
-  .remodal-shops h4
-    text-align: center
-    font-size: 30px
-    margin-bottom: 16px
-
-  .c-shops-loc
-    flex-wrap: wrap
-    text-align: center
-  .shops-col
-    padding: 0
-    width: 100%
-    &:first-child
-      margin-bottom: 10px
-
   .tabs-nav
     max-width: 320px
     justify-content: flex-start
@@ -805,6 +814,9 @@
   .tab-navitem
     &.is-active
       font-size: 14px
+      margin-right: 8px
+      &:last-child
+        margin-right: 0
       span
         display: block
         margin-top: 5px
