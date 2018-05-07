@@ -550,28 +550,32 @@
     display: flex
     justify-content: center
     align-items: center
-    &.is-active svg
-      path, ellipse, circle
-        stroke: #fff!important
+    &.is-active
+      &.bird,
+      &.fish,
+      &.veg
+        svg
+          path
+            fill: #fff!important
+      &.meat svg
+        .cls-2
+          fill: #fff!important
+
     .hide-on-small
       display: none
 
     svg
       display: block
       margin-right: 8px
-      path, ellipse, circle
-        stroke: #c2c2c2!important
-    &.bird, &.veg
-      path, ellipse, circle
-        fill: #fff!important
     &.bird
       svg
         min-width: 23px //31px
-        min-height: 26px //36px
         max-width: 23px
-        max-height: 26px
+        padding-right: 1px
+        padding-top: 1px
     &.fish
       svg
+        transform: rotate(135deg)
         min-width: 31px
         min-height: 26px
         max-width: 31px
