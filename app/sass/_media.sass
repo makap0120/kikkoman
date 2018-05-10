@@ -120,6 +120,9 @@
     &-text
       font-size: 16px
 
+  .b-featureitem:nth-child(2)
+    margin: 0 3.883vw //60px
+
   .padded
     padding-right: 20px
     padding-left: 20px
@@ -524,9 +527,17 @@
         padding-top: 16px
         padding-bottom: 24px
 
+  .banner-slider .slick-dots
+    padding-bottom: 28px
 
-
-
+  .m-recipe-img
+    .image-col
+      a
+        .lazy.at-details
+          padding-bottom: 75.002584%
+        &:first-child
+          .lazy.at-details
+            padding-bottom: 75.0620347%
 
 //justify-content: space-between
 
@@ -560,6 +571,12 @@
       &.meat svg
         .cls-2
           fill: #fff!important
+
+      svg
+        transform-origin: 50% 50%
+        transform: scale(1.1)
+      &.fish svg
+        transform: rotate(135deg) scale(1.1)
 
     .hide-on-small
       display: none
@@ -646,6 +663,7 @@
       transform: rotate(50deg)
       background-color: #fff
       transition: transform .2s
+      pointer-events: none
     &:hover
       background-color: #fff
       border-color: #c2c2c2
@@ -657,9 +675,10 @@
       white-space: nowrap
       z-index: 10
       text-transform: capitalize
-      transform: translateY(5px)
+      transform: translateY(2px) //translateY(5px)
       div
         background-color: $accent
+        padding-top: 9px
 
       &:after
         border-color: $accent
@@ -669,9 +688,11 @@
       display: flex
       align-items: flex-start
       padding-top: 5px
-      padding-left: 10px
+      padding-left: 14px
       background-color: #fff
       width: 100%
+    &.meat div
+      padding-left: 6px
 
   .btn
     &.w-icon
@@ -709,8 +730,6 @@
     &:first-child
       margin-bottom: 10px
 
-
-
 @media only screen and (max-width : 560px)
 
   .products-slider
@@ -725,6 +744,9 @@
       text-align: left
       line-height: .8
     .slick
+      &-prev,
+      &-next
+        top: 50%
       &-prev
         left: -10px
       &-next
@@ -818,7 +840,9 @@
   .tab-navitem
     &.is-active
       font-size: 14px
-      margin-right: 8px
+      margin-right: 10px
+      div
+        padding-top: 11px
       &:last-child
         margin-right: 0
       span
@@ -848,7 +872,7 @@
     max-width: 210px
     left: 24px
     h1
-      font-size: 40px
+      font-size: 35px
       margin-bottom: 8px
       span
         font-size: 24px

@@ -214,22 +214,20 @@ nav
       line-height: 1.14
 
   &-slider .slick-dots
-    right: 0
-    bottom: 0
+    right: 43px
+    bottom: 33px
     text-align: right
-    padding-right: 43px
-    padding-bottom: 28px
     li
-      width: 18px
-      height: 18px
+      width: 10px //18px
+      height: 10px //18px
       margin: 0 9px 0 0
       &:last-child
         margin-right: 0
       button
         padding: 0
         &:before
-          width: 18px
-          height: 18px
+          width: 10px //18px
+          height: 10px //18px
           color: transparent
           opacity: 1
           border: 2px solid #fff
@@ -254,7 +252,7 @@ nav
   max-width: 180px
   width: 100%
   &:nth-child(2)
-    margin: 0 3.883vw //60px
+    margin: 0 10.883vw
   &.replacement
     img
       width: 131px
@@ -398,10 +396,12 @@ nav
   margin: 0 auto
   .image-col
     max-width: 38.7%
+    width: 100%
     text-align: right
     padding-right: 20px
     img
       max-width: 100%
+      border-radius: 5px
   .descr-col
     max-width: 61.3%
     padding-left: 20px
@@ -445,12 +445,14 @@ a.js-collapse-recipe
   &:after
     display: block
     content: ''
-    background-color: #f8f7f7
+    background: #f8f7f7
+    //background: radial-gradient(rgb(248, 247, 247) 80%, transparent)
     width: calc(100% + 32px)
     height: 20px
     transform: translateY(-16px)
     margin-left: -16px
     position: absolute
+    left: 0
     transition: opacity .1s
     opacity: 0
   img,span
@@ -544,6 +546,8 @@ img.js-collapse-recipe,
     font-size: 50px
     line-height: 1
     margin: 0 0 3vw
+    width: 66%
+    text-align: center
 
   .c-img
     width: 55%
@@ -564,8 +568,8 @@ img.js-collapse-recipe,
   padding-top: 2.84%
 
 .b-shop
-  width: 63%
-  min-height: 73px
+  width: 66%
+  min-height: 93px
   background-color: #fff
   border-radius: 27px
   display: flex
@@ -640,6 +644,7 @@ img.js-collapse-recipe,
       width: 13px
       height: 25px
       background-image: url('../img/arrow.png')
+      top: 35%
       &:before
         display: none
       &.slick-disabled
@@ -685,6 +690,7 @@ img.js-collapse-recipe,
       height: 25px
       background-image: url('../img/arrow.png')
       left: -80px
+      top: 70px
       &:after,
       &:before
         display: none
@@ -726,7 +732,7 @@ img.js-collapse-recipe,
 // social
 
 .s-social
-  margin-bottom: 75px
+  margin-bottom: 60px
   .s-heading
     text-align: center
     margin-bottom: 40px
@@ -779,6 +785,8 @@ img.js-collapse-recipe,
     position: relative
     line-height: 1
     width: calc(33.333333% - 22px)
+    border-radius: 5px
+    overflow: hidden
     img
       width: 100%
       height: auto
@@ -881,6 +889,17 @@ footer
 .mobile-text
   display: none
 
-
+.lazy
+  background: url('../img/loading.gif')
+  background-repeat: no-repeat
+  background-position: 50% 50%
+  &.js-collapse-recipe
+    width: 100%
+    height: 0
+    padding-bottom: 74.7894855%
+  &.at-details
+    height: 0
+    padding-bottom: 74.9941143%
+    background-color: #fff
 
 @import "media" // Всегда в конце

@@ -1,4 +1,5 @@
 $(function() {
+$(document).ready(function() {
 
 	// Custom JS
     $('.banner-slider').slick({
@@ -7,7 +8,8 @@ $(function() {
         dots: true,
         slidesToShow: 1,
         slidesToScroll: 1,
-        draggable: false
+        draggable: false,
+        lazyload: 'ondemand'
     });
     $('.banner-slider').on('afterChange', function(event, slick, currentSlide) {
         setActiveTab(currentSlide)
@@ -18,6 +20,7 @@ $(function() {
         dots: false,
         infinite: false,
         arrows: true,
+        lazyload: 'ondemand',
         responsive: [
             {
                 breakpoint: 1690,
@@ -97,12 +100,29 @@ $(function() {
 
 
         ts.activeTab = index;
-        console.log(index)
         $('.js-toggle-tab, .tab').removeClass('is-active');
         $('.tab:nth-child('+ (index + 1)+'), .js-toggle-tab:nth-child('+ (index + 1)+')').addClass('is-active');
+
+        if ($('.s-recipes .tab.is-active .lazy').length) {
+            var lazyImages = [].slice.call(document.querySelectorAll('.s-recipes .tab.is-active .js-collapse-recipe.lazy'));
+            console.log(lazyImages)
+            lazyLoad(lazyImages);
+        }
+
         if (window.innerWidth <= 768) {
             initProductsSlider();
         }
+
+    };
+
+    var lazyLoad = function(images) {
+
+            setTimeout(function() {
+                images.forEach(function(lazyImage) {
+                    lazyImage.src = lazyImage.dataset.src;
+                    lazyImage.classList.remove('lazy');
+                })
+            }, 200)
 
     }
 
@@ -138,6 +158,11 @@ $(function() {
             overlay.find('.m-recipe-process').append(data.recipeHTML);
 
             $('body').addClass('recipe-overlay-is-active');
+
+            if ($('.m-recipe-img .lazy').length) {
+                var lazyImages = [].slice.call(document.querySelectorAll('.m-recipe-img .image-col .lazy'));
+                lazyLoad(lazyImages);
+            }
 
         }
         else // shows desktop collapsible
@@ -306,6 +331,5 @@ $(function() {
         });
 
 
-
-
-});
+}); // end $ doc ready
+}); // end IIFe
